@@ -5,6 +5,8 @@
 
 package com.mycompany.evaluacion_03_01;
 
+import Vista.JugadorVentana;
+
 /**
  *
  * @author PCG
@@ -12,6 +14,8 @@ package com.mycompany.evaluacion_03_01;
 public class Evaluacion_03_01 {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        var v1 = new JugadorVentana();
+        
+        v1.setVisible(true); 
     }
 }
