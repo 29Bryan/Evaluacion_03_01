@@ -5,7 +5,7 @@
 
 package com.mycompany.evaluacion_03_01;
 
-import Vista.JugadorVentana;
+import Vista.CreateJugador;
 
 /**
  *
@@ -14,7 +14,7 @@ import Vista.JugadorVentana;
 public class Evaluacion_03_01 {
 
     public static void main(String[] args) {
-        var v1 = new JugadorVentana();
+        var v1 = new CreateJugador();
         
         v1.setVisible(true); 
     }
