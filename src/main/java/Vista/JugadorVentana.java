@@ -141,7 +141,7 @@ public class JugadorVentana extends javax.swing.JFrame {
                                 .addComponent(jButton1)
                                 .addGap(53, 53, 53)
                                 .addComponent(jButton2)))
-                        .addGap(0, 68, Short.MAX_VALUE)))
+                        .addGap(0, 90, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         layout.setVerticalGroup(
@@ -168,8 +168,8 @@ public class JugadorVentana extends javax.swing.JFrame {
                     .addComponent(jButton1)
                     .addComponent(jButton2))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 106, Short.MAX_VALUE)
-                .addContainerGap())
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 132, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
 
         pack();
@@ -180,8 +180,8 @@ public class JugadorVentana extends javax.swing.JFrame {
         String [] args = new String[4];
         
         args[0]=this.jTextField1.getText(); 
-        args[1]=this.jTextField1.getText(); 
-        args[2]=this.jTextField1.getText();
+        args[1]=this.jTextField2.getText(); 
+        args[2]=this.jTextField3.getText();
         args[3]=this.jComboBox1.getSelectedItem().toString();
         
         jugadorControl.crear(args);
